@@ -53,10 +53,6 @@ public class BallService {
         return minDistance;
     }
 
-    public boolean isBall() {
-        return true;
-    }
-
     public boolean isTouch(Ball ball) {
         double pointCoordinateX = ball.getPoint().getX() - ball.getRadius();
         double pointCoordinateY = ball.getPoint().getY() - ball.getRadius();

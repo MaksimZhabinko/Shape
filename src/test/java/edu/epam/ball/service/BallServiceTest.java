@@ -40,10 +40,6 @@ public class BallServiceTest {
     }
 
     @Test
-    public void testIsBall() {
-    }
-
-    @Test
     public void testIsTouch() {
         boolean condition = service.isTouch(ball);
         assertTrue(condition);
